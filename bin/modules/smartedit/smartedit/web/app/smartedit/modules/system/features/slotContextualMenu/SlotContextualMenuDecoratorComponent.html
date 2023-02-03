@@ -1,0 +1,20 @@
+<div class="se-decorative-panel-wrapper">
+    <div class="se-decorative-panel-area" *ngIf="showOverlay()">
+        <span class="se-decorative-panel__title">{{smarteditComponentId}}</span>
+        <div class="se-decorative-panel__slot-contextual-menu" *ngIf="showOverlay() && showItems">
+            <slot-contextual-menu-item [item]="item" *ngFor="let item of getItems().leftMenuItems">
+            </slot-contextual-menu-item>
+            <slot-contextual-menu-item [item]="item" *ngFor="let item of getItems().moreMenuItems">
+            </slot-contextual-menu-item>
+        </div>
+    </div>
+
+    <div class="se-decoratorative-body-area">
+        <div class="se-decorative-body__padding--left" [ngClass]="{ 'active': active }"></div>
+        <div class="se-decorative-body__inner-border" [ngClass]="{ 'active': active }"></div>
+        <div class="se-wrapper-data" [ngClass]="{ 'active': active }">
+            <ng-content></ng-content>
+        </div>
+        <div class="se-decorative-body__padding--right" [ngClass]="{ 'active': active }"></div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+WARN   | wrapper  | main    | 2021/01/20 10:18:13.484 | Unable to write to the configured log directory: D:\Ani\Projects\DSS\dss2005\hybris\log\tomcat (The system cannot find the path specified. (0x3))
+WARN   | wrapper  | main    | 2021/01/20 10:18:13.485 |   The directory does not exist.
+WARN   | wrapper  | main    | 2021/01/20 10:18:13.485 | Unable to write to the configured log file: D:\Ani\Projects\DSS\dss2005\hybris\log\tomcat\console-20210120.log (The system cannot find the path specified. (0x3))
+WARN   | wrapper  | main    | 2021/01/20 10:18:13.486 |   Falling back to the default file in the current working directory: wrapper.log
+WARN   | wrapper  | main    | 2021/01/20 10:18:13.486 | Unable to write in event logs because the application is not
+WARN   | wrapper  | main    | 2021/01/20 10:18:13.486 |   registered (The system cannot find the file specified. (0x2)).
+WARN   | wrapper  | main    | 2021/01/20 10:18:13.486 |   Run the wrapper with the '--setup' option to register.
+FATAL  | wrapper  | main    | 2021/01/20 10:18:13.491 | ERROR: Could not write lock file D:\Ani\Projects\DSS\dss2005\hybris\data\hybristomcat.lock: The system cannot find the path specified. (0x3)
+FATAL  | wrapper  | 2022/11/23 11:02:23 | Failed to load configuration: C:\Hybris\hybris\hybris\bin\platform\tomcat\bin\"
+FATAL  | wrapper  | 2022/11/23 11:02:46 | Failed to load configuration: C:\Hybris\hybris\hybris\bin\platform\tomcat\bin\"
+FATAL  | wrapper  | 2022/11/23 11:49:32 | Failed to load configuration: C:\Hybris\hybris\hybris\bin\platform\tomcat\bin\"
